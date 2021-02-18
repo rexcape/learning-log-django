@@ -22,9 +22,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'g1d0)+zm8-hf7z3dc86cal472zuc5ld_06a-=69#!=auu3(&m1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://zxm-learning-log-django.herokuapp.com/"]
 
 # Application definition
 
