@@ -26,6 +26,12 @@ $ source ./venv/bin/activate
 (venv) $ pip install -r requirements.txt
 ```
 
+迁移数据库
+
+```bash
+(venv) $ python manage.py migrate
+```
+
 运行服务器
 
 ```bash
